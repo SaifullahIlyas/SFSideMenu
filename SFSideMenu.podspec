@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SFSideMenu"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "Side Menu to handle multiple options in app i.e Android Navigation Drawer"
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-                   SFSideMenu is Modren navigation drawer having capability of presenting Intial view Controller as snapShot or Right on Top on Menu.
+                   SFSideMenu is Modern navigation drawer having capability of presenting Initial view Controller as snapShot or Right on Top on Menu.
                    DESC
 
   spec.homepage     = "https://github.com/SaifullahIlyas/SFSideMenu"
