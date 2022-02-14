@@ -31,8 +31,6 @@ var window: UIWindow?
         
         window?.rootViewController = _drawerViewController
         window?.makeKeyAndVisible()
-        
-        
         //let menu =
         //navigationController.viewControllers.append(menu)
         //let vc = HomeServicesListingViewController.instantiate(from: StoryBoardName.home)
