@@ -3,12 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2BB7CD2025F63AC800A6D43F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB7CD1F25F63AC800A6D43F /* AppDelegate.swift */; };
-		2BB7CD2225F63AC800A6D43F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB7CD2125F63AC800A6D43F /* SceneDelegate.swift */; };
 		2BB7CD2425F63AC800A6D43F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB7CD2325F63AC800A6D43F /* ViewController.swift */; };
 		2BB7CD2725F63AC800A6D43F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BB7CD2525F63AC800A6D43F /* Main.storyboard */; };
 		2BB7CD2925F63ACA00A6D43F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BB7CD2825F63ACA00A6D43F /* Assets.xcassets */; };
@@ -42,7 +41,6 @@
 		2ACAE393C0F42F32BBF6E349 /* Pods-ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleTests.release.xcconfig"; path = "Target Support Files/Pods-ExampleTests/Pods-ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		2BB7CD1C25F63AC800A6D43F /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BB7CD1F25F63AC800A6D43F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2BB7CD2125F63AC800A6D43F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2BB7CD2325F63AC800A6D43F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2BB7CD2625F63AC800A6D43F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2BB7CD2825F63ACA00A6D43F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -117,7 +115,6 @@
 			isa = PBXGroup;
 			children = (
 				2BB7CD1F25F63AC800A6D43F /* AppDelegate.swift */,
-				2BB7CD2125F63AC800A6D43F /* SceneDelegate.swift */,
 				2BB7CD2325F63AC800A6D43F /* ViewController.swift */,
 				2BB7CD2525F63AC800A6D43F /* Main.storyboard */,
 				2BB7CD2825F63ACA00A6D43F /* Assets.xcassets */,
@@ -155,7 +152,6 @@
 				68B318DBBA41573E7F1EB826 /* Pods-ExampleTests.debug.xcconfig */,
 				2ACAE393C0F42F32BBF6E349 /* Pods-ExampleTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -409,7 +405,6 @@
 			files = (
 				2BB7CD2425F63AC800A6D43F /* ViewController.swift in Sources */,
 				2BB7CD2025F63AC800A6D43F /* AppDelegate.swift in Sources */,
-				2BB7CD2225F63AC800A6D43F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +583,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -607,6 +603,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
